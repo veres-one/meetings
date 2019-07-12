@@ -1,0 +1,90 @@
+[2019-07-08T14:00:42.414Z]	<manu>	voip: 53b is Mishi
+[2019-07-08T14:04:14.769Z]	<manu>	present+ Esterhuysen
+[2019-07-08T14:04:19.431Z]	<manu>	present+ Kovacs
+[2019-07-08T14:04:31.314Z]	<adam>  Agenda: https://veres.one/
+[2019-07-08T14:04:31.314Z]	<adam>  scribe: adam
+[2019-07-08T14:28:16.480Z]	<manu>	Topic: Meeting Process
+[2019-07-08T14:04:31.314Z]	<adam>	manu: reminder, we are recording calls and chat, standard operating procedures for W3C
+[2019-07-08T14:04:41.877Z]	<manu>	present+ Lake
+[2019-07-08T14:05:02.970Z]	<manu>	present+ Collier
+[2019-07-08T14:05:27.373Z]	<adam>	Mishi: it might be good to have certain things discussed offline for liability reasons.
+[2019-07-08T14:05:43.174Z]	<manu>	present+ Mishi
+[2019-07-08T14:05:45.310Z]	<adam>	Manu: agreed. By default we want to make calls public
+[2019-07-08T14:08:37.360Z]	<adam>	manu: we are running calls this way, recorded, to achieve transparency. We can strike things from the call if need be but we should try not to mention those items on these calls. When we finish the call the transcription goes to the VOCG mailing list. The other reason we run the calls this way is because the W3C has a good, established, IP structure and agreement.
+[2019-07-08T14:09:20.279Z]	<manu>	q+
+[2019-07-08T14:09:28.775Z]	<manu>	q-
+[2019-07-08T14:09:54.128Z]	<adam>	manu: we are reusing a W3C call process that has been in practice for 25 years. We have a chat channel as well for queuing and types questions and other admin functions.
+[2019-07-08T14:10:38.697Z]	<manu>	present+ chaals
+[2019-07-08T14:10:46.160Z]	<anja>	No questions from me.
+[2019-07-08T14:10:56.799Z]	<manu>	q+ anja
+[2019-07-08T14:10:59.273Z]	<manu>	q+ anriette
+[2019-07-08T14:11:03.088Z]	<manu>	q+ mishi
+[2019-07-08T14:11:07.550Z]	<manu>	q+ chaals
+[2019-07-08T14:28:16.480Z]	<manu>	Topic: Introductions
+[2019-07-08T14:12:24.806Z]	<adam>	Anja: normally based in India, internet Democracy Project. Intersections of internet policy and social rights. Currently based in Rio researching data governance for the IDP.
+[2019-07-08T14:12:38.088Z]	<manu>	ack anriette
+[2019-07-08T14:13:04.830Z]	<chaals>	present+ chaals
+[2019-07-08T14:13:51.698Z]	<adam>	Anriette: based in Johannesburg, long time at Association for Progressive Communication. Support work at internet governance forum among many other...
+[2019-07-08T14:13:55.310Z]	<manu>	voip: connections?
+[2019-07-08T14:14:05.931Z]	<manu>	voip: 53e is Chaals
+[2019-07-08T14:14:55.776Z]	<adam>	Mishi: based in New York and sometimes in New Delhi. Lawyer for free and open source software project. Founder of SFLC software freedom law center...internet freedom.
+[2019-07-08T14:15:08.132Z]	<manu>	voip: connections?
+[2019-07-08T14:15:15.140Z]	<manu>	q?
+[2019-07-08T14:15:26.266Z]	<manu>	ack anja
+[2019-07-08T14:15:27.240Z]	<manu>	ack mish
+[2019-07-08T14:15:29.391Z]	<manu>	ack chaals
+[2019-07-08T14:16:24.460Z]	<adam>	Chaals: been doing Standards at W3C for 20+ years and am currently working on enterprise Ethereum alliance and Consensus. I have worked on accessibility and semantic Web. Based in Madrid.
+[2019-07-08T14:16:24.460Z]	<adam>	adam: Hi, Adam Lake, I have been organizing a lot of the behind the scenes stuff for Veres One, such as the creation of the non-profit of the Foundation, recruiting the board and advisors, announcements, by-laws for non-profit, engaging with legal, etc.
+[2019-07-08T14:16:24.460Z]	<adam>	collier: Hi, My name is Matt Collier and I'm one of the primary engineers on Veres One, handle the releases and operation of the network.
+[2019-07-08T14:16:24.460Z]	<adam>	manu: Hi, Manu Sporny, one of the co-founders of this project and delighted that we have such a great turn out for our first Board of Governors meeting. I'm in awe that we were able to get each of you involved and that you are participating to help build and operate this very important Internet and Web infrastructure.
+[2019-07-08T14:17:02.832Z]	<manu>	voip: 53f is Kilnam
+[2019-07-08T14:19:08.571Z]	<adam>	Topic: Status of Veres One Testnet
+[2019-07-08T14:21:45.236Z]	<adam>	manu: apologies for being out of touch for so long. Concept of the Veres One Network started last year, when we launched the testnet in Feb 2018, 18 months ago. The network has been live 24/7 since then.
+[2019-07-08T14:22:17.542Z]	<adam>	manu: one issue we did have was that the TLS certs that would not auto renew. We believe this has been fixed.
+[2019-07-08T14:23:29.511Z]	<adam>	manu: guiding principle at the beginning was that we would not launch with a cryptocurrency because they are unstable due to speculation. We still think this was the right decision but it also means we are not as resourced as some others who have done ICOs.
+[2019-07-08T14:23:52.573Z]	<adam>	manu: we want to keep the cost as low as possible.
+[2019-07-08T14:25:25.351Z]	<adam>	manu: a new testnet launched a few weeks ago. Updates keep us inline with the DID spec, has better scaling, and fix various bugs. We have not publicly announced the Veres One testnet and would like to do so next week unless there are objections.
+[2019-07-08T14:26:41.841Z]	<adam>	manu: we are marching towards a production release by the end of 2019. There is one major bug that we need to address related to a concerted attack by a well funded entity. We need to deploy a recovery mode for the network, which we are working on mathematical proofs for.
+[2019-07-08T14:27:01.247Z]	<adam>	Xiadong: hi! Are you able to join the call?
+[2019-07-08T14:26:42.182Z]	<Xiaodong>	Hello, can't join the call but will follow in IRC.
+[2019-07-08T14:27:57.467Z]	<anriette>	Hi Xiadong :)
+[2019-07-08T14:28:06.335Z]	<anriette>	No questions from me.
+[2019-07-08T14:28:08.596Z]	<adam>	manu: we don't want to rush the network into production. We want to launch in a responsible way so we don't have a defined launch date.
+[2019-07-08T14:28:16.480Z]	<manu>	Topic: Status of Veres One Foundation
+[2019-07-08T14:29:39.686Z]	<adam>	manu: Canada ended up being the best place to incorporate. We are working with https://drache.ca/
+[2019-07-08T14:30:31.946Z]	<adam>	manu: we will share all of the docs, bylaws ect...,with the BOG before anything is final. There will be D&O insurance before the foundation is handed over.
+[2019-07-08T14:31:24.171Z]	<adam>	manu: We are moving forward with incorporation but are taking our time to get it right.
+[2019-07-08T14:32:42.261Z]	<manu>	Topic: Governance Hand-over of Veres One Network
+[2019-07-08T14:34:57.332Z]	<adam>	manu: the Veres One Network, right now, is a bunch of technology, up on github for review. The desire is to hand the management of that source code over to the Veres One Foundation and decouple decision making authority for the network from Digital Bazaar. A for-profit company should not be in managing the Global Public Utility.
+[2019-07-08T14:37:14.713Z]	<adam>	manu: there are three parts to the network. One is the Veres One Community Group, which is open to anyone and in the public record. the CG sends proposal to the Advisory Council, all domain experts in their area. The Advisory Council gives recommendations to the BOG. The BOG approves or rejects proposals. If rejected the BOG explains why.
+[2019-07-08T14:38:09.502Z]	<adam>	manu: the Maintainer implements technical proposals that are approved by the BOG. The Maintainer may provide input back the the Community if they see technical issues.
+[2019-07-08T14:38:45.971Z]	<adam>	manu: this framework borrows from W3C and other internet governance models.
+[2019-07-08T14:41:07.114Z]	<adam>	manu: nonprofit in place with bylways and D&O insurance. etc...Build up the VOCG. We also need the technical network needs to go into production.
+[2019-07-08T14:41:24.473Z]	<adam>	manu: the testnet is already being used in several PoCs.
+[2019-07-08T14:43:35.118Z]	<adam>	manu: we need to decide that when to hand the network over to the Foundation. Currently Digital Bazaar has all of the liability. We want to had the network over in good condition. Once the handover happens the Board has control. We won't hand the network over until the Board feels comfortable.
+[2019-07-08T14:43:46.692Z]	<anriette>	Questions for later: What day to day operational capacity will the Foundation have once it has been created? What will be the day to day responsibilities of the board? What will be the liability of the board? How are relationships with the community maintained? What is the responsibility of the board in relation to the community? How/when does the board interact with the advisors?
+[2019-07-08T14:44:14.060Z]	<anriette>	And thanks for being so respectful of our time. Much appreciated.
+[2019-07-08T14:44:52.198Z]	<anja>	I think this makes all eminent sense.
+[2019-07-08T14:45:58.602Z]	<anriette>	Fine if you can't answer it all yet. We can work it out together.
+[2019-07-08T14:46:07.162Z]	<adam>	:)
+[2019-07-08T14:48:03.511Z]	<adam>	manu: the primary burden of network operations will be on the Maintainer of the Board continues to allow Digital Bazaar to do so. Day-to-day operations are generally handled by the Maintainer. The Board provides governance and guidance. For example, the CG and the Board can set DID pricing and the Maintainer has to implement that.
+[2019-07-08T14:48:20.505Z]	<anriette>	thanks.. very clear
+[2019-07-08T14:50:13.406Z]	<adam>	Manu: the only time the Board has to be involved is reviewing and approving/rejecting proposal that come out of the CG. The CG  and the Maintainer handle the day-to-day.
+[2019-07-08T14:52:04.166Z]	<adam>	Anriette: it would be good for the Board to track the CG discussion. What is the best way to track the discussion.
+[2019-07-08T14:52:10.222Z]	<anriette>	Thanks Manu.
+[2019-07-08T14:52:25.177Z]	<anja>	So far the mailing list has not been so active yet? Or am I not on the right mailing list?
+[2019-07-08T14:52:29.776Z]	<adam>	manu: there is a mailing list and calls that are recorded. This should cover all communication,
+[2019-07-08T14:52:53.836Z]	<anriette>	Same question from me as Anja's. I also did join the list.
+[2019-07-08T14:53:05.565Z]	<anja>	Thanks for clarifying, Manu.
+[2019-07-08T14:53:14.870Z]	<manu>	https://www.w3.org/community/veres-one/
+[2019-07-08T14:53:23.088Z]	<manu>	https://lists.w3.org/Archives/Public/public-veres-one/
+[2019-07-08T14:53:39.835Z]	<manu>	To join the Veres One CG: https://www.w3.org/community/wp-login.php?redirect_to=%2Fcommunity%2Fveres-one%2Fjoin
+[2019-07-08T14:53:44.512Z]	<Mishi>	Can we have a  little more clarity about the relationship between Digital Bazaar and Veres-one?
+[2019-07-08T14:55:19.533Z]	<adam>	adam: I want to reiterate what Manu said, the Board members are more than welcome to participate in the Veres One Community Group.
+[2019-07-08T14:55:55.060Z]	<adam>	manu: who is going to chair the VOCG is still unknown.
+[2019-07-08T15:00:08.053Z]	<adam>	manu: Digital Bazaar is a for-profit company founded 17 years ago. We care very much about privacy. Veres One is an attempt to give everyone on the planet can interact without one another about privacy issues and censorship. We don't believe that a DID ledger belongs in the hands of a for-profit.
+[2019-07-08T15:00:59.334Z]	<adam>	manu: there are details around compensation for licensing the software and maintaining the software that need to be worked out.
+[2019-07-08T15:01:36.906Z]	<anriette>	Thanks so much for the update. Will you let us know about the testnet release?
+[2019-07-08T15:01:54.306Z]	<chaals>	thanks all.
+[2019-07-08T15:02:03.566Z]	<adam>	manu: thanks all for your time.
+[2019-07-08T15:02:14.761Z]	<anriette>	Great.. thanks.. keep well everyone.
