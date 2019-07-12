@@ -1,0 +1,50 @@
+
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+
+          <div class="md-footer-copyright__highlight">
+            Copyright 2019 - The Veres One Project - <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-4.0</a>
+          </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
+</footer>
+
+    </div>
+
+<script src="https://veres.one/assets/javascripts/application.245445c6.js"></script>
+
+<script>app.initialize({version:"1.0.4",url:{base:"https://veres.one/"}})</script>
+
+<script>
+  window.ga = window.ga || function() {
+    (ga.q = ga.q || []).push(arguments)
+  }
+  ga.l = +new Date
+  /* Setup integration and send page view */
+  ga("create", "UA-114649669-1", "auto")
+  ga("set", "anonymizeIp", true)
+  ga("send", "pageview")
+  /* Register handler to log search on blur */
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.forms.search) {
+      var query = document.forms.search.query
+      query.addEventListener("blur", function() {
+        if (this.value) {
+          var path = document.location.pathname;
+          ga("send", "pageview", path + "?q=" + this.value)
+        }
+      })
+    }
+  })
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+
+
+  </body>
+</html>
